@@ -1,0 +1,1 @@
+export default `<svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" role="img"><path d="m14.7 9.9-5.8 5.7c-.5.4-1.2.4-1.6 0l-6-5.7c-.5-.4-.5-1.2 0-1.6s1.2-.4 1.6 0l3.9 3.8v-11c0-.6.6-1.1 1.2-1.1s1.2.5 1.2 1.1v11l3.8-3.8c.5-.4 1.2-.4 1.6 0 .5.5.5 1.2.1 1.6z"/></svg>`;

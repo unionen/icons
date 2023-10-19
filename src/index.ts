@@ -1,1 +1,7 @@
-console.log('Hello World');
+import * as icons from './icons-single'
+export * from './collections'
+
+export default icons
+export {
+  icons
+}
