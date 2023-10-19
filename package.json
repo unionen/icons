@@ -1,7 +1,8 @@
 {
   "name": "@unionen/icons",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A FormKit iconset for unionen.se",
+  "private": false,
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
