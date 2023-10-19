@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A FormKit iconset for unionen.se",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "keywords": [
     "vue",
     "icons",
@@ -23,12 +25,11 @@
     "lint": "tsc",
     "test": "vitest run",
     "dev": "vitest",
-    "ci": "pnpm run lint && pnpm run test && pnpm run build"
-  },
-  "dependencies": {
-    "@formkit/core": "1.2.2"
+    "ci": "pnpm run lint && pnpm run test && pnpm run build",
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@types/node": "^20.8.7",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
