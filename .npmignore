@@ -8,5 +8,5 @@ vite.config.ts
 .editorconfig
 .npmrc
 .nvmrc
-
+.husky
 
