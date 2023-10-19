@@ -1,0 +1,17 @@
+# build output
+
+# dependencies
+/node_modules
+
+# build
+dist
+
+# misc
+.DS_Store
+.npm
+.eslintcache
+.yarn-integrity
+.vscode
+
+# env files
+.env

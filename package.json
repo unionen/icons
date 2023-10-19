@@ -1,0 +1,32 @@
+{
+  "name": "@unionen/icons",
+  "version": "1.0.0",
+  "description": "A FormKit iconset for unionen.se",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [
+    "vue",
+    "icons",
+    "svg",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unionen/icons.git"
+  },
+  "contributors": [
+    "Lars McLachlan <lars.mclachlan@unionen.se>"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "dependencies": {
+    "@formkit/core": "1.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
