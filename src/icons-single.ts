@@ -1,0 +1,11 @@
+export * from './icons/action'
+export * from './icons/arrow'
+export * from './icons/course'
+export * from './icons/navigation'
+export * from './icons/object'
+export * from './icons/other'
+export * from './icons/show_hide'
+export * from './icons/status'
+export * from './icons/social'
+export * from './icons/file'
+
