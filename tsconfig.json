@@ -1,12 +1,29 @@
 {
   "compilerOptions": {
-    "target": "ES2020", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "module": "commonjs", /* Specify what module code is generated. */
-    "noEmit": true, /* Disable emitting files from a compilation. */
-    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
-    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
-    "strict": true /* Enable all strict type-checking options. */
+    "target": "es2019",
+    "lib": ["ES2021", "dom"],
+    "module": "commonjs",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "declaration": false,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noErrorTruncation": true
   },
+  "types": [
+    "node",
+    "vite/client"
+  ],
   "exclude": [
     "dist",
     "node_modules"

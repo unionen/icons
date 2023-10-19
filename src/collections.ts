@@ -1,4 +1,4 @@
-import * as actionIcons from './icons/action'
+import * as actionIcons from './icons/action';
 import * as arrowIcons from './icons/arrow'
 import * as courseIcons from './icons/course'
 import * as navigationIcons from './icons/navigation'
@@ -15,7 +15,7 @@ export * from './icons/navigation'
 export * from './icons/object'
 export * from './icons/other'
 export * from './icons/show_hide'
-export * from './icons/satus'
+export * from './icons/status'
 export * from './icons/social'
 export * from './icons/file'
 
