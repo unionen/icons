@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 0.0.5
+
+### Patch Changes
+
+- Added AboutAssignment icons
+
 ## 0.0.4
 
 ### Patch Changes

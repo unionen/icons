@@ -1,6 +1,9 @@
 import AgreementParagraphLarge from './AgreementParagraphLarge';
 import AgreementParagraphMedium from './AgreementParagraphMedium';
 import AgreementParagraphSmall from './AgreementParagraphSmall';
+import AboutAssignmentSmall from './AboutAssignmentSmall';
+import AboutAssignmentMedium from './AboutAssignmentMedium';
+import AboutAssignmentLarge from './AboutAssignmentLarge';
 import CalendarLarge from './CalendarLarge';
 import CalendarMedium from './CalendarMedium';
 import CalendarSmall from './CalendarSmall';
@@ -55,6 +58,9 @@ export {
   AgreementParagraphLarge,
   AgreementParagraphMedium,
   AgreementParagraphSmall,
+  AboutAssignmentSmall,
+  AboutAssignmentMedium,
+  AboutAssignmentLarge,
   CalendarLarge,
   CalendarMedium,
   CalendarSmall,
