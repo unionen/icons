@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: false
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@formkit/core':
-    specifier: 1.2.2
-    version: 1.2.2
-
 devDependencies:
   '@changesets/cli':
     specifier: ^2.26.2
@@ -438,16 +433,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /@formkit/core@1.2.2:
-    resolution: {integrity: sha512-aJoZW7ZWXdwVBdw2acv62aPaecZ44PnK9eyp/hdMrMxT9xW3I84MytCdII8DYpxLmloaE+NoUANZIvlkTRGlHg==}
-    dependencies:
-      '@formkit/utils': 1.2.2
-    dev: false
-
-  /@formkit/utils@1.2.2:
-    resolution: {integrity: sha512-4EGm4nfZGSJik0QRAEybxO52F3QhbOfX/KgtWfB3/dDUEOCx5RWDxIs/CU2yI4bceDl2aK8l/yDYwCYK9SO5MA==}
-    dev: false
 
   /@jest/schemas@29.6.3:
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
