@@ -4,4 +4,9 @@ src
 pnpm-lock.yml
 tsconfig.json
 vite.config.ts
+.commitlintrc
+.editorconfig
+.npmrc
+.nvmrc
+
 
