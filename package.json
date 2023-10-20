@@ -1,12 +1,21 @@
 {
   "name": "@unionen/icons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A FormKit iconset for unionen.se",
   "private": false,
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./*": "./dist/*"
+  },
   "keywords": [
     "vue",
     "icons",
@@ -22,7 +31,7 @@
   ],
   "license": "ISC",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
     "lint": "tsc",
     "test": "vitest run",
     "dev": "vitest",

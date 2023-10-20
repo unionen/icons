@@ -1,13 +1,10 @@
 {
   "compilerOptions": {
+    "module": "esnext",
     "target": "es2019",
     "lib": ["ES2021", "dom"],
-    "module": "commonjs",
-    "noEmit": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
     "allowJs": false,
+    "strict": true,
     "moduleResolution": "node",
     "declaration": false,
     "baseUrl": ".",
@@ -18,12 +15,10 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
     "noErrorTruncation": true
   },
-  "types": [
-    "node",
-    "vite/client"
-  ],
   "exclude": [
     "dist",
     "node_modules"
