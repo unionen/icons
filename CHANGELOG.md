@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 0.0.7
+
+### Patch Changes
+
+- Fixed corrupt svg files
+
 ## 0.0.6
 
 ### Patch Changes

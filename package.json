@@ -1,6 +1,6 @@
 {
   "name": "@unionen/icons",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A FormKit iconset for unionen.se",
   "private": false,
   "type": "module",
