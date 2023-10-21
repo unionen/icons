@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "target": "es2019",
-    "lib": ["ES2021", "dom"],
+    "module": "CommonJS",
+    "target": "es6",
+    "lib": ["ES2015", "es2016", "dom"],
     "allowJs": false,
     "strict": true,
     "moduleResolution": "node",
@@ -19,6 +19,9 @@
     "esModuleInterop": true,
     "noErrorTruncation": true
   },
+  "include": [
+    "src/**/*"
+  ],
   "exclude": [
     "dist",
     "node_modules"
