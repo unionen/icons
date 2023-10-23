@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.0.4
+
+### Patch Changes
+
+- Fix typo in .npmignore
+
 ## 1.0.3
 
 ### Patch Changes

@@ -11,5 +11,5 @@ vite.config.ts
 .husky
 temp
 api-extractor.json
-rollup.config.js
+rollup.config.mjs
 scripts
