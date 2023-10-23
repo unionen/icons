@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.0.1
+
+### Patch Changes
+
+- Updated package.json and .gitignore
+
 ## 1.0.0
 
 ### Major Changes
