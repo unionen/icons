@@ -9,4 +9,7 @@ vite.config.ts
 .npmrc
 .nvmrc
 .husky
-
+temp
+api-extractor.json
+rollup.config.js
+scripts
