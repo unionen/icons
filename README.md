@@ -2,6 +2,7 @@
 
 # Unionen Icon Pack
 
+An icon pack for FormKit inputs. Based on [@formkit/icons](https://github.com/formkit/formkit).
 
 ### Contributors
 
@@ -11,4 +12,4 @@
 
 [ISC](https://opensource.org/licenses/ISC)
 
-Copyright (c) 2021-present, [Unionen](https://www.unionen.se)
+Copyright (c) 2021-present, [Unionen](https://www.unionen.se).
