@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
-    "target": "es6",
-    "lib": ["ES2015", "es2016", "dom"],
+    "module": "esnext",
+    "target": "es2019",
+    "lib": ["ES2021", "dom"],
     "allowJs": false,
     "strict": true,
     "moduleResolution": "node",

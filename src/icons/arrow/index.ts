@@ -42,4 +42,4 @@ export {
   ChevronUpMedium,
   ChevronUpSmall,
   SelectIcon
-}
+};
