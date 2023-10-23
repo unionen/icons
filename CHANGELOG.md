@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.0.0
+
+### Major Changes
+
+- Based on @formkit/icons
+
 ## 0.0.7
 
 ### Patch Changes

@@ -15,3 +15,8 @@ dist
 
 # env files
 .env
+
+# Temp directories
+.temp
+.tmp
+.cache

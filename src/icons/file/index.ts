@@ -18,4 +18,4 @@ export {
   DocumentTxtMedium,
   DocumentXlsMedium,
   DocumentZipMedium
-}
+};
