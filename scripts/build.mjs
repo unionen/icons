@@ -104,7 +104,7 @@ async function declarations(plugin = '') {
   // Annoyingly even though we tell @rollup/plugin-typescript
   // emitDeclarationOnly it still outputs an index.js — is this a bug?
   const artifactToDelete = resolve(
-    rootDir, 'index.js'
+    rootDir, 'dist/index.js'
   )
   let shouldDelete
   try {

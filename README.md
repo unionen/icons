@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.unionen.se" target="_blank" rel="noopener noreferrer"><img src="./public/unionen.png" width="300"/></a></p>
+<p align="center"><a href="https://www.unionen.se" target="_blank" rel="noopener noreferrer"><img src="./public/unionen.png" width="300" alt="Unionen logo"/></a></p>
 
 <p align="center">
   <a href="https://github.com/unionen/icons/actions"><img title="Build Badge" alt="GitHub Build Status" src="https://github.com/unionen/icons/actions/workflows/main.yml/badge.svg"></a>
@@ -25,6 +25,13 @@ An icon pack for FormKit inputs. Based on [@formkit/icons](https://github.com/fo
         ...icons
       },
     }
+
+### Team
+
+<a href="https://www.digitalist.se#gh-light-mode-only" target="_blank" rel="noopener noreferrer"><img src="./public/digitalist-logo.svg" width="200" alt="Digitalist logo"/></a>
+<a href="https://www.digitalist.se#gh-dark-mode-only" target="_blank" rel="noopener noreferrer"><img src="./public/digitalist-logo-neg.svg" width="200" alt="Digitalist logo"/></a>
+
+This project is in the warm caring loving serenity of Team Armada at [Digitalist Open Tech AB](https://www.digitalist.se).
 
 ### Contributors
 
