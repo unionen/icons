@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.0.6
+
+### Patch Changes
+
+- Added messages
+
 ## 1.0.5
 
 ### Patch Changes

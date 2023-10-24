@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url';
 import fs from 'fs/promises';
 import { execa } from 'execa'
 import { Extractor, ExtractorConfig } from '@microsoft/api-extractor'
-import { getIcons } from './utils.mjs'
+import { getIcons, msg } from './utils.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -17,12 +17,15 @@ const rollup = `${rootDir}/node_modules/.bin/rollup`
 export async function buildPackage() {
   const startTime = performance.now()
   await cleanDist()
+  msg.info('» bundling distributions')
+  msg.loader.start()
   await bundle('icons', 'esm')
   await bundle('icons', 'cjs')
+  msg.loader.stop()
+  msg.info('» extracting type definitions')
+  msg.loader.start()
   await declarations()
-
   const icons = getIcons()
-
   await fs.mkdir(
     resolve(rootDir, 'dist/icons'),
     { recursive: true },
@@ -36,6 +39,10 @@ export async function buildPackage() {
       icons[icon]
     )
   })
+  msg.loader.stop()
+  msg.success(
+    `📦 build complete (${Math.round(performance.now() - startTime) / 1000}s)`
+  )
 }
 
 /**
@@ -43,7 +50,7 @@ export async function buildPackage() {
  */
 async function cleanDist() {
   const distDir = `${rootDir}/dist`;
-  console.log(`Removing: ${distDir}`);
+  msg.loader.text = 'Removing: /dist'
   try {
     await fs.access(distDir)
     const files = await fs.readdir(distDir)
@@ -53,7 +60,7 @@ async function cleanDist() {
   } catch {
     console.log('directory is already missing, no need to clean it');
   }
-  console.log('» cleaned dist artifacts')
+  msg.info(`» cleaned dist artifacts`)
 }
 
 /**
@@ -66,7 +73,7 @@ async function bundle(p, format, subPackage) {
     { name: 'PKG', value: p },
     { name: 'FORMAT', value: format },
   ]
-  console.log(`Bundling ${p} as ${format}`);
+  msg.loader.text = `Bundling ${p} as ${format}`
   await execa(rollup, [
     '-c',
     '--environment',
@@ -78,7 +85,7 @@ async function bundle(p, format, subPackage) {
  * Emit type declarations for the package to the dist directory.
  */
 async function declarations(plugin = '') {
-  console.log('Emitting type declarations')
+  msg.loader.text = `Emitting type declarations`
   const args = [
     { name: 'PKG', value: 'icons' },
     { name: 'FORMAT', value: 'esm' },
@@ -97,8 +104,7 @@ async function declarations(plugin = '') {
   // Annoyingly even though we tell @rollup/plugin-typescript
   // emitDeclarationOnly it still outputs an index.js — is this a bug?
   const artifactToDelete = resolve(
-    rootDir,
-    `dist/${plugin ? plugin + '/' : ''}index.js`
+    rootDir, 'index.js'
   )
   let shouldDelete
   try {
@@ -109,7 +115,7 @@ async function declarations(plugin = '') {
   if (shouldDelete) {
     await fs.rm(artifactToDelete)
   }
-  console.log('Rolling up type declarations')
+  msg.loader.text = `Rolling up type declarations`
   await apiExtractor()
   console.log('done rolling up')
 }
