@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.0.7
+
+### Patch Changes
+
+- Updated readme.md
+
 ## 1.0.6
 
 ### Patch Changes
