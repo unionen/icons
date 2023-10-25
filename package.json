@@ -1,6 +1,6 @@
 {
   "name": "@unionen/icons",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "An iconset for FormKit inputs used on unionen.se",
   "private": false,
   "type": "module",
@@ -32,7 +32,8 @@
   "license": "ISC",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "lint": "tsc",
+    "lint": "pnpm eslint .",
+    "lint:fix": "pnpm eslint . --fix",
     "test": "vitest run",
     "dev": "vitest",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
@@ -47,8 +48,11 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/node": "^20.8.8",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
     "autoprefixer": "^10.4.16",
     "chalk": "^5.3.0",
+    "eslint": "^8.52.0",
     "execa": "^8.0.1",
     "fs-extra": "^11.1.1",
     "husky": "^8.0.3",
@@ -64,6 +68,7 @@
     "tsup": "^7.2.0",
     "typescript": "5.2.2",
     "vite": "^4.5.0",
-    "vitest": "^0.34.6"
+    "vitest": "^0.34.6",
+    "vue": "^3.3.7"
   }
 }

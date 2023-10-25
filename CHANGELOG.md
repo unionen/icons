@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.1.0
+
+### Minor Changes
+
+- Changed all double quotes to single quotes and added an eslint rule
+
 ## 1.0.7
 
 ### Patch Changes
