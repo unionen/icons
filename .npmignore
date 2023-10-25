@@ -13,3 +13,5 @@ temp
 api-extractor.json
 rollup.config.mjs
 scripts
+.eslintrc
+.eslintignore

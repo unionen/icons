@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.1.1
+
+### Patch Changes
+
+- Update .npmignore
+
 ## 1.1.0
 
 ### Minor Changes
