@@ -1,4 +1,4 @@
-import { dirname, resolve, join, basename, extname } from 'path';
+import { dirname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs/promises';
 import { execa } from 'execa'
