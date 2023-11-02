@@ -1,7 +1,7 @@
-import * as icons from "./icons-single";
-export * from "./collections";
-import { h } from "vue";
-import unionenIcons from "./unionenIcons";
+import * as icons from './icons-single';
+export * from './collections';
+import { h } from 'vue';
+import unionenIcons from './unionenIcons';
 
 export default icons;
 export { icons, unionenIcons };
@@ -20,6 +20,6 @@ export function singleQuotes(param: string): string {
  * @public
  */
 export function makeVueComponent(param: string) {
-  return h("span", { innerHTML: singleQuotes(param) });
+  return h('span', { innerHTML: singleQuotes(param) });
 }
 

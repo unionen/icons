@@ -3,7 +3,7 @@ import {
   CrossXSmall,
   CrossInCircleSmall,
   TrashCanDeleteSmall,
-} from "./icons/action";
+} from './icons/action';
 import {
   CheckmarkSmall,
   Color,
@@ -13,15 +13,15 @@ import {
   Rewind,
   CheckboxChecked,
   RadioChecked,
-} from "./icons/other";
+} from './icons/other';
 import {
   ArrowUpSmall,
   ArrowDownSmall,
   ChevronRightSmall,
   ChevronLeftSmall,
   SelectIcon,
-} from "./icons/arrow";
-import { CalendarSmall, StarSmall } from "./icons/object";
+} from './icons/arrow';
+import { CalendarSmall, StarSmall } from './icons/object';
 
 /**
  * The collection of icons required by the unionen theme.
