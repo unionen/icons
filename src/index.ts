@@ -1,11 +1,10 @@
-import * as icons from './icons-single'
-export * from './collections'
-import { h } from 'vue';
+import * as icons from "./icons-single";
+export * from "./collections";
+import { h } from "vue";
+import unionenIcons from "./unionenIcons";
 
-export default icons
-export {
-  icons
-}
+export default icons;
+export { icons, unionenIcons };
 
 /**
  * Simple function that replaces all double quotes with single quotes in a given string
@@ -21,5 +20,6 @@ export function singleQuotes(param: string): string {
  * @public
  */
 export function makeVueComponent(param: string) {
-  return h('span', { innerHTML: singleQuotes(param) });
+  return h("span", { innerHTML: singleQuotes(param) });
 }
+
