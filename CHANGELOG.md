@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.1.3
+
+### Patch Changes
+
+- Added unionenIcons ro match default FormKit icons
+
 ## 1.1.2
 
 ### Patch Changes
