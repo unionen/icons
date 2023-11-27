@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.2.0
+
+### Minor Changes
+
+- added login small and fixed corrupt icons
+
 ## 1.1.3
 
 ### Patch Changes
