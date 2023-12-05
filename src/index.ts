@@ -1,7 +1,8 @@
-import * as icons from './icons-single';
-export * from './collections';
-import { h } from 'vue';
-import unionenIcons from './unionenIcons';
+/* eslint-disable quotes */
+import * as icons from "./icons-single";
+export * from "./collections";
+import { h } from "vue";
+import unionenIcons from "./unionenIcons";
 
 export default icons;
 export { icons, unionenIcons };
@@ -19,7 +20,13 @@ export function singleQuotes(param: string): string {
  * @param param - The icon string to wrap
  * @public
  */
-export function makeVueComponent(param: string) {
-  return h('span', { innerHTML: singleQuotes(param) });
+export function makeVueComponent(
+  param: string,
+  size: "sm" | "md" | "lg" | undefined = undefined
+) {
+  return h("span", {
+    innerHTML: singleQuotes(param),
+    class: size ? `icon-${size}` : undefined,
+  });
 }
 
