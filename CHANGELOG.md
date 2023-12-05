@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.3.0
+
+### Minor Changes
+
+- add size parameter to makeVueComponent
+
 ## 1.2.0
 
 ### Minor Changes
