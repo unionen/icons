@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.1
+
+### Patch Changes
+
+- add success and error animatable icons
+
 ## 1.4.0
 
 ### Minor Changes
