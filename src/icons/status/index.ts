@@ -1,5 +1,6 @@
 import CorrectMedium from './CorrectMedium';
 import ErrorMedium from './ErrorMedium';
+import ErrorLarge from './ErrorLarge';
 import FingerprintPersonalizedMedium from './FingerprintPersonalizedMedium';
 import FingerprintPersonalizedSmall from './FingerprintPersonalizedSmall';
 import InformationMedium from './InformationMedium';
@@ -11,11 +12,13 @@ import LogInKeyMedium from './LogInKeyMedium';
 import LogInMedium from './LogInMedium';
 import LogInSmall from './LogInSmall';
 import QuestionMedium from './QuestionMedium';
+import SuccessLarge from './SuccessLarge';
 import WarningMedium from './WarningMedium';
 
 export {
   CorrectMedium,
   ErrorMedium,
+  ErrorLarge,
   FingerprintPersonalizedMedium,
   FingerprintPersonalizedSmall,
   InformationMedium,
@@ -27,6 +30,7 @@ export {
   LogInSmall,
   LogInMedium,
   QuestionMedium,
+  SuccessLarge,
   WarningMedium,
 };
 
