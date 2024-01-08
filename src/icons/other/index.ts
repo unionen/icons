@@ -11,6 +11,10 @@ import DocumentMedium from './DocumentMedium';
 import DocumentSmall from './DocumentSmall';
 import FastForward from './FastForward';
 import FistConflictMedium from './FistConflictMedium';
+import GradeOneLarge from './GradeOneLarge';
+import GradeTwoLarge from './GradeTwoLarge';
+import GradeThreeLarge from './GradeThreeLarge';
+import GradeFourLarge from './GradeFourLarge';
 import LetterEmailSmall from './LetterEmailSmall';
 import ListSmall from './ListSmall';
 import PrinterSmall from './PrinterSmall';
@@ -41,6 +45,10 @@ export {
   DocumentSmall,
   FastForward,
   FistConflictMedium,
+  GradeOneLarge,
+  GradeTwoLarge,
+  GradeThreeLarge,
+  GradeFourLarge,
   LetterEmailSmall,
   ListSmall,
   PrinterSmall,

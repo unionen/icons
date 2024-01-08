@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.2
+
+### Patch Changes
+
+- added grade faces
+
 ## 1.4.1
 
 ### Patch Changes
