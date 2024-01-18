@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.3
+
+### Patch Changes
+
+- add instagram icon
+
 ## 1.4.2
 
 ### Patch Changes
