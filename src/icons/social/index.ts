@@ -5,6 +5,7 @@ import SocialMediaPlayerLarge from './SocialMediaPlayerLarge';
 import SocialTwitterLarge from './SocialTwitterLarge';
 import SocialXLarge from './SocialXLarge';
 import SocialYoutubeLarge from './SocialYoutubeLarge';
+import SocialInstagramLarge from './SocialInstagramLarge';
 
 export {
   SocialEmailLarge,
@@ -13,5 +14,7 @@ export {
   SocialMediaPlayerLarge,
   SocialTwitterLarge,
   SocialXLarge,
-  SocialYoutubeLarge
-}
+  SocialYoutubeLarge,
+  SocialInstagramLarge,
+};
+
