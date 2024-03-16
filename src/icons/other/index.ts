@@ -5,6 +5,7 @@ import CalculationSmall from './CalculationSmall';
 import CheckboxChecked from './CheckboxChecked';
 import CheckmarkInCircleMedium from './CheckmarkInCircleMedium';
 import CheckmarkSmall from './CheckmarkSmall';
+import CheckmarkMedium from './CheckmarkMedium';
 import Color from './Color';
 import ContactPhoneLarge from './ContactPhoneLarge';
 import DocumentMedium from './DocumentMedium';
@@ -39,6 +40,7 @@ export {
   CheckboxChecked,
   CheckmarkInCircleMedium,
   CheckmarkSmall,
+  CheckmarkMedium,
   Color,
   ContactPhoneLarge,
   DocumentMedium,

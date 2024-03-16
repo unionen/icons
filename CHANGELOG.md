@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.4
+
+### Patch Changes
+
+- add checkmark medium
+
 ## 1.4.3
 
 ### Patch Changes
