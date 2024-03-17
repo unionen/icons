@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.5
+
+### Patch Changes
+
+- changed checkmark md stroke width
+
 ## 1.4.4
 
 ### Patch Changes
