@@ -1,4 +1,5 @@
 import CorrectMedium from './CorrectMedium';
+import ErrorSmall from './ErrorSmall';
 import ErrorMedium from './ErrorMedium';
 import ErrorLarge from './ErrorLarge';
 import FingerprintPersonalizedMedium from './FingerprintPersonalizedMedium';
@@ -17,6 +18,7 @@ import WarningMedium from './WarningMedium';
 
 export {
   CorrectMedium,
+  ErrorSmall,
   ErrorMedium,
   ErrorLarge,
   FingerprintPersonalizedMedium,
