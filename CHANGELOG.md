@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.7
+
+### Patch Changes
+
+- add error small
+
 ## 1.4.6
 
 ### Patch Changes
