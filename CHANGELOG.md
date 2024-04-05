@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.8
+
+### Patch Changes
+
+- new checkmark medium icon
+
 ## 1.4.7
 
 ### Patch Changes
