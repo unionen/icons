@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.9
+
+### Patch Changes
+
+- remove fill color from grade icons
+
 ## 1.4.8
 
 ### Patch Changes
