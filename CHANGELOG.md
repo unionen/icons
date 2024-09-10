@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.10
+
+### Patch Changes
+
+- add undefined to string param
+
 ## 1.4.9
 
 ### Patch Changes
@@ -180,3 +186,4 @@
 
 - added conventional commits
 - 8699734: Initial commit
+
