@@ -21,12 +21,12 @@ export function singleQuotes(param: string): string {
  * @public
  */
 export function makeVueComponent(
-  param: string,
+  param: string | undefined,
   size: "sm" | "md" | "lg" | undefined = undefined,
   hide: boolean = true
 ) {
   return h("span", {
-    innerHTML: singleQuotes(param),
+    innerHTML: param ? singleQuotes(param) : undefined,
     class: size ? `icon-${size}` : undefined,
     "aria-hidden": hide ? "true" : undefined,
   });
