@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.4.11
+
+### Minor Changes
+
+- add lock small
+
 ## 1.4.10
 
 ### Patch Changes
