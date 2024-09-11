@@ -32,6 +32,7 @@ import LocationMedium from './LocationMedium';
 import LocationSmall from './LocationSmall';
 import LockCircleMedium from './LockCircleMedium';
 import LockMedium from './LockMedium';
+import LockSmall from './LockSmall';
 import MagnifyingGlassLarge from './MagnifyingGlassLarge';
 import MagnifyingGlassMedium from './MagnifyingGlassMedium';
 import MagnifyingGlassSmall from './MagnifyingGlassSmall';
@@ -89,6 +90,7 @@ export {
   LocationSmall,
   LockCircleMedium,
   LockMedium,
+  LockSmall,
   MagnifyingGlassLarge,
   MagnifyingGlassMedium,
   MagnifyingGlassSmall,
@@ -109,5 +111,5 @@ export {
   WorkplaceMedium,
   WorkplaceSmall,
   WrenchMedium,
-  WrenchSmall
-}
+  WrenchSmall,
+};
