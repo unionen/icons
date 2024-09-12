@@ -22,12 +22,12 @@ export function singleQuotes(param: string): string {
  */
 export function makeVueComponent(
   param: string | undefined,
-  size: "sm" | "md" | "lg" | undefined = undefined,
+  size: "sm" | "md" | "lg" | "none" = "sm",
   hide: boolean = true
 ) {
   return h("span", {
     innerHTML: param ? singleQuotes(param) : undefined,
-    class: size ? `icon-${size}` : undefined,
+    class: size !== "none" ? `icon-${size}` : undefined,
     "aria-hidden": hide ? "true" : undefined,
   });
 }
