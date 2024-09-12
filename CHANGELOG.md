@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.5.0
+
+### Minor Changes
+
+- refactor makeVueComponent method
+
 ## 1.4.11
 
 ### Minor Changes
@@ -192,4 +198,3 @@
 
 - added conventional commits
 - 8699734: Initial commit
-
