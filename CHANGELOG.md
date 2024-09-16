@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.5.1
+
+### Patch Changes
+
+- reduce checkmark medium size
+
 ## 1.5.0
 
 ### Minor Changes
