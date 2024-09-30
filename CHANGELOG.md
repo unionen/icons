@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.0
+
+### Minor Changes
+
+- added 'icon-FILE-NAME' class to all svg elements and updated tests
+
 ## 1.5.1
 
 ### Patch Changes
