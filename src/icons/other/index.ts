@@ -25,7 +25,7 @@ import Rewind from "./Rewind";
 import SalaryMedium from "./SalaryMedium";
 import Spinner from "./Spinner";
 import SpreadsheetMedium from "./SpreadsheetMedium";
-import SpreadsheetSmall from "./Spreadsheetsmall";
+import SpreadsheetSmall from "./SpreadsheetSmall";
 import SyncedSimpleSmall from "./SyncedSimpleSmall";
 import TargetMedium from "./TargetMedium";
 import ThumbUpLikeMedium from "./ThumbUpLikeMedium";
