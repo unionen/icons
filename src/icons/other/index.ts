@@ -2,6 +2,7 @@ import BankIdLarge from "./BankIdLarge";
 import BankIdMedium from "./BankIdMedium";
 import BankIdXtraLarge from "./BankIdXtraLarge";
 import CalculationSmall from "./CalculationSmall";
+import ChatbotBubble from "./ChatbotBubble";
 import CheckboxChecked from "./CheckboxChecked";
 import CheckmarkInCircleMedium from "./CheckmarkInCircleMedium";
 import CheckmarkSmall from "./CheckmarkSmall";
@@ -37,6 +38,7 @@ export {
   BankIdMedium,
   BankIdXtraLarge,
   CalculationSmall,
+  ChatbotBubble,
   CheckboxChecked,
   CheckmarkInCircleMedium,
   CheckmarkSmall,
