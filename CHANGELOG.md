@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.3
+
+### Patch Changes
+
+- fixed typos
+
 ## 1.6.2
 
 ### Patch Changes
@@ -222,4 +228,3 @@
 
 - added conventional commits
 - 8699734: Initial commit
-
