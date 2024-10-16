@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.5
+
+### Patch Changes
+
+- fix phone-medium size
+
 ## 1.6.4
 
 ### Patch Changes
