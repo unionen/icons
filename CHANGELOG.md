@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.6
+
+### Patch Changes
+
+- fix merge conflict
+
 ## 1.6.5
 
 ### Patch Changes
