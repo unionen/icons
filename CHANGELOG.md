@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.7
+
+### Patch Changes
+
+- fix broken GavelMedium.svg
+
 ## 1.6.6
 
 ### Patch Changes
