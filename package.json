@@ -1,6 +1,6 @@
 {
   "name": "@unionen/icons",
-  "version": "1.6.7",
+  "version": "1.6.8",
   "description": "An iconset for FormKit inputs used on unionen.se",
   "private": false,
   "type": "module",
@@ -27,7 +27,8 @@
     "url": "https://github.com/unionen/icons.git"
   },
   "contributors": [
-    "Lars McLachlan <lars.mclachlan@unionen.se>"
+    "Lars McLachlan <lars.mclachlan@digitalist.com>",
+    "Filip Joelsson <filip.joelsson@digitalist.com>"
   ],
   "license": "ISC",
   "scripts": {
@@ -38,7 +39,8 @@
     "dev": "vitest",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "changeset:prepare": "changeset && changeset version"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.8",
@@ -74,3 +76,4 @@
     "vue": "^3.5.10"
   }
 }
+
