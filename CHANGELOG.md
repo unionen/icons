@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.8
+
+### Patch Changes
+
+- make select-icon color as current
+
 ## 1.6.7
 
 ### Patch Changes
