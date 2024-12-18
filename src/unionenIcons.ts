@@ -3,25 +3,25 @@ import {
   CrossXSmall,
   CrossInCircleSmall,
   TrashCanDeleteSmall,
-} from './icons/action';
+} from "./icons/action";
 import {
   CheckmarkSmall,
   Color,
-  Spinner,
+  SpinnerMedium,
   FastForward,
   DocumentSmall,
   Rewind,
   CheckboxChecked,
   RadioChecked,
-} from './icons/other';
+} from "./icons/other";
 import {
   ArrowUpSmall,
   ArrowDownSmall,
   ChevronRightSmall,
   ChevronLeftSmall,
   SelectIcon,
-} from './icons/arrow';
-import { CalendarSmall, StarSmall } from './icons/object';
+} from "./icons/arrow";
+import { CalendarSmall, StarSmall } from "./icons/object";
 
 /**
  * The collection of icons required by the unionen theme.
@@ -41,7 +41,7 @@ const unionenIcons = {
   noFiles: DocumentSmall,
   radioDecorator: RadioChecked,
   select: SelectIcon,
-  spinner: Spinner,
+  spinner: SpinnerMedium,
   star: StarSmall,
   trash: TrashCanDeleteSmall,
   fastForward: FastForward,
