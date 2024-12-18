@@ -24,7 +24,7 @@ import QuoteLarge from "./QuoteLarge";
 import RadioChecked from "./RadioChecked";
 import Rewind from "./Rewind";
 import SalaryMedium from "./SalaryMedium";
-import Spinner from "./Spinner";
+import SpinnerMedium from "./SpinnerMedium";
 import SpreadsheetMedium from "./SpreadsheetMedium";
 import SpreadsheetSmall from "./SpreadsheetSmall";
 import SyncedSimpleSmall from "./SyncedSimpleSmall";
@@ -60,7 +60,7 @@ export {
   RadioChecked,
   Rewind,
   SalaryMedium,
-  Spinner,
+  SpinnerMedium,
   SpreadsheetMedium,
   SpreadsheetSmall,
   SyncedSimpleSmall,

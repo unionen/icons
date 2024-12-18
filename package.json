@@ -1,6 +1,6 @@
 {
   "name": "@unionen/icons",
-  "version": "1.6.8",
+  "version": "1.6.9",
   "description": "An iconset for FormKit inputs used on unionen.se",
   "private": false,
   "type": "module",
@@ -76,4 +76,3 @@
     "vue": "^3.5.10"
   }
 }
-
