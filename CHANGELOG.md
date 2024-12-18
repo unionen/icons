@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.10
+
+### Patch Changes
+
+- removed the added prefix
+
 ## 1.6.9
 
 ### Patch Changes
