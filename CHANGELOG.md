@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.12
+
+### Patch Changes
+
+- add missing fill prop on phone-vintage-medium
+
 ## 1.6.11
 
 ### Patch Changes
