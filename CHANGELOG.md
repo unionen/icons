@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.11
+
+### Patch Changes
+
+- added phone-vintage-medium, cleaned up broken gavel large
+
 ## 1.6.10
 
 ### Patch Changes
