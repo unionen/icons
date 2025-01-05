@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.13
+
+### Patch Changes
+
+- fix: eye icon alignment
+
 ## 1.6.12
 
 ### Patch Changes
