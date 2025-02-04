@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.14
+
+### Patch Changes
+
+- add white bg to social-media-player-large
+
 ## 1.6.13
 
 ### Patch Changes
