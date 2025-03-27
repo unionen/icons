@@ -1,5 +1,11 @@
 # @unionen/icons
 
+## 1.6.15
+
+### Patch Changes
+
+- fix: UnionenOpinionSmall smaller
+
 ## 1.6.14
 
 ### Patch Changes
